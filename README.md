@@ -14,6 +14,22 @@ Not affiliated with OverDrive or Libby.
 
 Your library key is the `<key>` in `libbyapp.com/library/<key>`.
 
+## Find your library key
+
+The key is the short name OverDrive uses for your library's collection. It is not
+in Libby's share links (`share.libbyapp.com/title/<id>` identifies only the title), so
+read it from a browser session instead:
+
+1. Open https://libbyapp.com in a web browser (desktop or phone browser, not the app).
+2. Choose your library, or open it from **Menu → Libraries** if Libby is already set up.
+3. Read the address bar. It changes to `https://libbyapp.com/library/<key>` — for
+   example `libbyapp.com/library/yourlibrary` means the key is `yourlibrary`.
+
+The same key names the library's public OverDrive catalog, `https://<key>.overdrive.com`,
+which is the page this skill searches. Open it to confirm it is your library. Several
+libraries often share one collection under a consortium name, so the key may not
+match your library's own name.
+
 ## Use directly
 
     node scripts/search.js "The Canterbury Tales"
