@@ -1,0 +1,9 @@
+{
+  "name": "libby-search",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Claude Code skill: search a public Libby/OverDrive library catalog for titles and availability",
+  "license": "MIT",
+  "scripts": { "setup": "npm install && npx playwright install chromium" },
+  "dependencies": { "playwright": "^1.64.1" }
+}
